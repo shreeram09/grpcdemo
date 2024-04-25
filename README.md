@@ -3,7 +3,8 @@
 ## Features
 1. generate code from gRPC proto files
 2. generate code from openapi specifications
-
+3. uber-jar packaging support , where jar genarated would include all the necessary dependencies 
+    so that it could be launched/executed on any platform without worrying about any dependency
 > both the features work within single module, no conflict between protobuf or quarkus plugin 
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
